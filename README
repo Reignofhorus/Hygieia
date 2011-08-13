@@ -1,1 +1,9 @@
-hello
+I think I'm starting to get the hang of this.  Check out this site for some help.  I think it boils down to:
+
+git pull origin master
+*make changes*
+git add .
+git commit -am "Text about the changes"
+git push origin master
+
+http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
