@@ -4,5 +4,5 @@ git pull origin master				#Pull changes from remote repo
 *make changes*
 git commit -am "Text about the changes"		#Adds changed(but not new) files to the index(a) and commits to local repo
 git push origin master				#Push changes to remote repo
-
+f
 http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html
