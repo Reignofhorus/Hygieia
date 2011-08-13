@@ -1,0 +1,4 @@
+# Ignore certain files, don't push to repo
+
+#compiled python scripts
+*.pyc
