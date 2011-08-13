@@ -1,9 +1,8 @@
 I think I'm starting to get the hang of this.  Check out this site for some help.  I think it boils down to:
 
-git pull origin master
+git pull origin master				#Pull changes from remote repo
 *make changes*
-git add .
-git commit -am "Text about the changes"
-git push origin master
+git commit -am "Text about the changes"		#Adds changed(but not new) files to the index(a) and commits to local repo
+git push origin master				#Push changes to remote repo
 
-http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
+http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html
