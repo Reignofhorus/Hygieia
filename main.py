@@ -20,6 +20,7 @@ def main():
 	Screen = pygame.display.set_mode((Width, Height))
 	pygame.display.set_caption("Hygieia")
 	Clock = pygame.time.Clock()
+	WorldTest = world.World(Screen)
 	
 	while Running:							#Main loop
 		for event in pygame.event.get():			#Event loop
@@ -31,7 +32,7 @@ def main():
 		
 		Screen.fill(WHITE)
 		
-		
+		WorldTest.DrawMap()
 		
 		pygame.display.flip()
 		Clock.tick(60)

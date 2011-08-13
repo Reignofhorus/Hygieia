@@ -19,10 +19,10 @@ class World:
 		self.Screen = Screen
 		
 		#Load background map
-		self.BG = pygame.image.load("testmap.png")
+		self.BG = pygame.image.load("resources/cherry.png")
 		self.BG.set_colorkey(self.COLORMASK)
 		
-		self.CreateRegions()
+#		self.CreateRegions()
 
 	def CreateRegions(self):
 		random.seed()
@@ -62,7 +62,7 @@ class World:
 		self.Regions.append(NewRegion)
 
 	def DrawMap(self):
-		self.Screen.blit(self.BG, (0,0))
+		self.Screen.blit(self.BG, (self.Screen.get_width()/2, self.Screen.get_height()/2))
 
 class Region:
 	""" A region on the map """
