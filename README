@@ -6,3 +6,9 @@ git commit -am "Text about the changes"		#Adds changed(but not new) files to the
 git push origin master				#Push changes to remote repo
 
 http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html
+
+---------
+
+You'll need python to run the script.  Cody you'll have it by default, but you might need pygame, it's a dependancy.  You should be able to get it from your package repo(ubuntu right?  "sudo aptitude install python-pygame").  Tim if you end up here, you'll have to install python and pygame for Windows.
+
+To run just clone the repo to a local working directory, cd to the dir and run "python main.py".  Should just display a little cherry.
